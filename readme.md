@@ -22,7 +22,7 @@ Class distribution in the dataset: **82.5% / 11.5% / 6.1%** — heavily imbalanc
 
 ## Dataset
 
-- **Source:** U.S. Bureau of Transportation Statistics (BTS)
+- **Source:** U.S. Bureau of Transportation Statistics (BTS) via Kaggle — [Flight Delay and Cancellation Dataset 2019–2023](https://www.kaggle.com/datasets/patrickzel/flight-delay-and-cancellation-dataset-2019-2023?select=flights_sample_3m.csv)
 - **Size:** ~3 million domestic flight records (`Data/raw/flights_sample_3m.csv`)
 - **Features used (19):** airline, origin, destination, origin/destination state, distance, scheduled departure/arrival times, elapsed time, block time, year, month, day, day of week, weekend flag, departure hour, arrival hour, departure time bucket, season
 
