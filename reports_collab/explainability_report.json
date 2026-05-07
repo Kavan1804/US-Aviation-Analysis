@@ -1,0 +1,72 @@
+{
+  "model_used": "random_forest_3class",
+  "input_data": "/content/drive/MyDrive/aviation/flights_model_ready_3class.csv",
+  "method": "Permutation Feature Importance",
+  "metric_used": "weighted_f1",
+  "permutation_importance_csv": "/content/drive/MyDrive/aviation/reports/feature_importance.csv",
+  "permutation_importance_figure": "/content/drive/MyDrive/aviation/figures/permutation_importance_top15.png",
+  "permutation_importance_clean_figure": "/content/drive/MyDrive/aviation/figures/permutation_importance_top15_clean.png",
+  "local_prediction_examples_csv": "/content/drive/MyDrive/aviation/reports/local_prediction_examples.csv",
+  "top_10_features": [
+    {
+      "feature": "AIRLINE",
+      "clean_feature": "Airline",
+      "importance_mean": 0.01497280590752111,
+      "importance_std": 8.530734332679565e-05
+    },
+    {
+      "feature": "year",
+      "clean_feature": "Year",
+      "importance_mean": 0.013104731822071466,
+      "importance_std": 0.00039742656431104585
+    },
+    {
+      "feature": "day",
+      "clean_feature": "Day",
+      "importance_mean": 0.002245567074043072,
+      "importance_std": 9.511856612094261e-05
+    },
+    {
+      "feature": "month",
+      "clean_feature": "Month",
+      "importance_mean": 0.0016351625389063134,
+      "importance_std": 0.00017783439229092035
+    },
+    {
+      "feature": "day_of_week",
+      "clean_feature": "Day of Week",
+      "importance_mean": 0.0011700175184249744,
+      "importance_std": 6.116436853968335e-05
+    },
+    {
+      "feature": "is_weekend",
+      "clean_feature": "Weekend Flag",
+      "importance_mean": -1.726769777602814e-05,
+      "importance_std": 5.518956006868306e-05
+    },
+    {
+      "feature": "ORIGIN",
+      "clean_feature": "Origin Airport",
+      "importance_mean": -0.00022569347063328138,
+      "importance_std": 4.739852731056054e-06
+    },
+    {
+      "feature": "season",
+      "clean_feature": "Season",
+      "importance_mean": -0.000317937880434882,
+      "importance_std": 0.00010378424865743105
+    },
+    {
+      "feature": "ORIGIN_STATE",
+      "clean_feature": "Origin State",
+      "importance_mean": -0.0006921810075581162,
+      "importance_std": 3.422709433461251e-05
+    },
+    {
+      "feature": "DEST",
+      "clean_feature": "Destination Airport",
+      "importance_mean": -0.0007473831935217076,
+      "importance_std": 5.399542956648708e-05
+    }
+  ]
+}

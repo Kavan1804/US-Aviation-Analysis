@@ -3,6 +3,8 @@ __pycache__/
 .DS_Store
 
 Models/*.joblib
+models_collab/*.joblib
+models_collab/*.json
 Data/raw/flights_sample_3m.csv
 Data/raw/kv_dashboard_sample.csv
 Data/processed/cleaned_flights.csv
